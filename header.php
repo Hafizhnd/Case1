@@ -9,7 +9,7 @@
     <div class = "header-main">
         <div class = "header-left">
             <?php
-            echo "Kalkulator Phytagoras";
+            echo "Kalkulator Pythagoras";
             ?>  
         </div>
 
