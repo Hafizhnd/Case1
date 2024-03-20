@@ -35,7 +35,7 @@
             ?>
             </h3>
             </div>
-            <button type="submit" class="btn btn-primary" name="submit">Kembali</button>
+            <button type="submit" class="btn btn-dark" name="submit">Kembali</button>
             </form>
         </div>
     
