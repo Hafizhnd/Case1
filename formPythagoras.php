@@ -31,7 +31,7 @@
                     <label for="z">z:</label>
                     <input type="number" class="form-control" id="z" name="z" min="0" placeholder="Masukkan nilai z" required>
                 </div>
-                <button type="submit" class="btn btn-primary" name="submit">Hitung</button>
+                <button type="submit" class="btn btn-dark" name="submit">Hitung</button>
             </div>
             </div> 
             </form>
