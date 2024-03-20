@@ -15,7 +15,6 @@
 
     
         <div class="container">
-            <h1 class="mt-4">Hasil Pythagoras 3D</h1>
             <form action="formPythagoras.php" method="post">
             <div>
             <h3>
@@ -25,6 +24,7 @@
                     $y = $_POST['y'];
                     $z = $_POST['z'];
                     $hasil = sqrt(pow($x, 2) + pow($y, 2) + pow($z, 2));
+                    echo "<h1>Hasil Pythagoras 3D</h1><br>";
                     echo "Panjang x = " . $x . "<br>";
                     echo "Panjang y = ". $y ."<br>";
                     echo "Panjang z = ". $z ."<br><br>";
