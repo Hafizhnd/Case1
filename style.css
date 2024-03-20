@@ -80,6 +80,9 @@ body {
 }
 
 .container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     min-height: fit-content;
     padding: 30px;
     width: fit-content !important;
@@ -89,4 +92,10 @@ body {
     margin-right: auto;
     background-color: var(--nude-color);
     max-width: none;
+}
+
+.image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain;
 }
